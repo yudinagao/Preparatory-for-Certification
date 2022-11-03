@@ -14,9 +14,33 @@ The first challenge grants you the AZ-305: Designing Microsoft Azure Infrastruct
 There are 26 Modules with no particular order to take them but I divided them in three sections:
 
 ## Introductory Modules
-
-
-
+- Build a cloud governance strategy on Azure
+- Microsoft Cloud Adoption Framework for Azure
+- Secure access to your applications by using Azure identity Services
+- Explore Azure compute Services
+- Explore Azure networking Services
+- Explore Azure Storage Services
+- Explore Azure databases and Analytics Services
+- Discover Azure message Queues
 ## Design Modules
 
+- Design for high availability
+- Design a solution for backup and disaster recovery
+- Design a data storage for non-relational data
+- Design a data storage for relational data
+- Design data integration
+- Design an Azure compute Solution
+- Design an application architeture
+- Design network solution
+- Design migrations
+- Design governance
+- Design authentication and authorization solutions
+- Design a solution to log and monitor Azure resources
 ## Well-Acrchitected Modules
+
+- Introduction to the Microsoft Azure Well-Architected Framework
+- Microsoft Azure Well-Architected Framework - Cost Optimization
+- Microsoft Azure Well-Architected Framework - Operational
+- Microsoft Azure Well-Architected Framework - Performance
+- Microsoft Azure Well-Architected Framework - Reliability
+- Microsoft Azure Well-Architected Framework - Security
