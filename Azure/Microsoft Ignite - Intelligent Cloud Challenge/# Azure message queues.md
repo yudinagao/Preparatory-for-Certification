@@ -25,4 +25,3 @@
 - 80 GB of message in queue
 - track process
 - Require server side logs
-- 
