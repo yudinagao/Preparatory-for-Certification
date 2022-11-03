@@ -2,7 +2,7 @@
 This repo is for all the preparation and notes for all the cloud and others services certifications.
 So this is my idea: to concat all my notes and how I prep to the exams, like how I prepared to take the DP-900 from Microsoft Azure Data Fundamentals.
 
-## MicrosOFt Exams and Virtual Training Days.
+## Microsoft Exams and Virtual Training Days.
 I found out recently that if you join Microsoft Azure Virtual Training Day , you may be eligible to take the exam for that specific content. 
 I did the Microsoft Azure Virutal Training day Data Fundamentals Part I on the 25/10/2022 and the Part II on the 26th. It covered all the topics from their Data Fundamentals Learning Path for about 6 to 7 hours. Which is a lot. However if you studied previously, it should be just a review for you. After you attend the event, you may be eligible to gain a voucher which makes the exam free for you. You have 90 days to schedule your exam. 
 You can see all the information in: https://www.microsoft.com/en-us/trainingdays.
