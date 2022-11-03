@@ -11,8 +11,10 @@ Tip: My english is not my mother language but it's quite good, so there was no p
 
 # The Microsoft Learn Cloud Skills Challenge 
 I saw in LinkedIn couple of days ago that Microsoft offered a Cloud Skills Challenge and completing one granted you a specific free Microsft Certification exam.
-Challenge Details: The challenge ends on November 9, 2022 at 4:00 PM (16:00) UTC. Make sure all modules in your challenge are complete before time runs out.  Your free Microsoft Certification exam offer will be delivered by November 18, 2022 and will expire on February 15, 2023
+Challenge Details: The challenge ends on November 9, 2022 at 4:00 PM (16:00) UTC. Make sure all modules in your challenge are complete before time runs out.  Your free Microsoft Certification exam offer will be delivered by November 18, 2022 and will expire on February 15, 2023.
+
 You can view all the information in: https://www.microsoft.com/en-US/cloudskillschallenge/ignite/registration/2022
+
 There are 7 learning Paths, which I have interest in the following three:
 I - Microsoft Ignite: Intelligent Cloud Challenge - Learn the basic Azure concepts you'll need to know as an Azure infrastructure architect. Gain knowledge in IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. 
 II -  Microsoft Ignite: Cloud Developer Challenge - This challenge learning path will help you understand what DevOps is and how to plan for a DevOps transformation journey. 
