@@ -13,7 +13,7 @@
 This is extremely important. The certification exam have relative weights to the domains of content. It shows that are more emphasys on Architeture than Cloud Concepts, probably more questions about the respective topic. I know that the DP-900 exam have 40~60 questions and a hour to take the exam, so the AZ should be around the same.
 
 | AZ-900 Domain Area                        | Weight |
-| ---   -                                   | ------ |
+| ----                                      | ------ |
 | Describe cloud concepts                   | 25-30% |
 | Describe Azure architecture and services  | 35-40% |
 | Describe Azure management and governance  | 30-35% |
