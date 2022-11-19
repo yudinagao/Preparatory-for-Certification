@@ -77,4 +77,98 @@ Need of higher bandwidth than ExpressRoute and highly available network connecti
 
 ## Azure Network connectivity services
 
+- Communication of Azure Resources
+- Communictaion between VN
+- Communication to the internet
+- Communication with on-premises networks
+
+Do any organizational security requirements exist for isolating traffic into separate virtual networks? 
+Do any organizational requirements exist for isolating virtual networks into separate subscriptions or regions?
+How many network interfaces and private IP addresses do you require in a virtual network?
+
+### Network Segmentation
+
+- Subscription - high level construct - Communictaion between in different subscription needs to be explicity provissioned
+- Virtual Networks - Communictaion between in different VN needs to be explicity provissioned
+- Network Security Groups - access control mechanics for controlling traffic between resources within a VN. Also control external Networks - granular level by creating a perimeter for a subnet
+- Application Secrity Groups - Groups a set of VMs under an applicatiaon tag
+- Azure Firewall - native filter traffic between cloud resourcers, internet and on premises
+
+#### Pattern 1 - Single Virtual Network
+
+Subnet1 - database workloads
+Subnet2 - web workloads. 
+NSGs - Subnet1 talk only Subnet2
+     - Subnet2 -> Internet
+
+Although we used NSGs to illustrate how subnet traffic can be governed, you can also enforce this segmentation by using a Network Virtualized Appliance from Azure Marketplace or Azure Firewall.
+
+#### Pattern 2 - Multiple virtual networks with peering in between them
+
+ Group applications - separate virtual networks or in multiple Azure regions. 
+ explicitly peer a virtual network
+
+ #### Pattern 3: Multiple virtual networks in a hub & spoke model
+
+ Choose a VN as a hub within a region - communication achieved by peering
+ Traffic passes through the HUB - it serves as a gateway
+ Scalability
+
+ ### Virtual network NAT gateway
+
+Virtual Network NAT (network address translation) simplifies outbound-only Internet connectivity for virtual networks 
+- You need on-demand outbound to internet connectivity without pre-allocation
+- You need one or more static public IP addresses for scale
+- You need configurable idle timeout
+- You need TCP reset for unrecognized connections
+
+### Routing
+
+ - System routes
+ - Subnet default routes
+ - Routes from other virtual networks
+ - BGP routes
+ - Service endpoint routes
+ - User Defined Routes (UDR)
+
+## Design for application delivery services
+
+### Content Delivery Network - CDN
+
+- Point of presence close to large clusters of users
+- Reduce latency
+- Custom domains, file compression, caching and geo-filtering
+
+### Azure Front Door
+
+- Define, Manage and monitor global routing - web traffic 
+- Optimize for best performance and instant global failover for high availability
+- requests are send to the lowest latency back ends
+- you have primary and secondary backends
+- Distribute traffic using weight coefficients
+- Ensure request from a user get sent to the same back end (affinity)
+- HTTPS based and you need WAF and or CDN
+
+### Traffic Manageer
+
+DNS -based traffic load balancer
+Distribute traffic aoptimizing - high availability and response time
+    - priority
+    - weighted
+    - performance
+    - geographic
+    - multi-value
+    - subnet
+
+- need of increase application availability
+- need of improve application performance
+- need to combine hybrid applications
+- need to dirtibute traffic for complex deployments
+
+### Load Balancer
+
+- High Performance 
+- Low Latency layer 4 load-balancing for all UDP and TCP protocols
+- Manages inbound and outbound connections
+- Define rules to map inbound connections to back end pool
 - 
