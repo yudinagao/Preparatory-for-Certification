@@ -33,3 +33,50 @@
 |Management 	|You must manage all aspects of the server, including operating system and SQL Server updates, configuration, backups, and other maintenance tasks. 	|Fully automated updates, backups, and recovery. 	|Fully automated updates, backups, and recovery.|
 |Use cases 	|Use this option when you need to migrate or extend an on-premises SQL Server solution and retain full control over all aspects of server and database configuration. 	|Use this option for most cloud migration scenarios, particularly when you need minimal changes to existing applications. 	|Use this option for new cloud solutions, or to migrate applications that have minimal instance-level dependencies.|
  
+ ## Azure Services for Open-Source Databases
+
+## MySQl
+
+- Linux, Apache, MySQL and PHP stack apps
+
+### Azure service for MySQL
+
+- PaaS
+- High availability and easy scalability
+- Predictable Performance
+- Automatic backups with point-in-time restore lasts for 35 days
+- Enforces firewall Rules, optionally requires SSL
+    - Configuration of lock modes, maximum number of connections and timeouts   
+    - Enterprise level security and compliance with legislation
+- Pay as you go 
+- Provides monitoring functionality to add alerts and view logs and metrics
+
+## MariaDB
+
+- Newer database management system
+- improved performance
+- Built-in support for temporal data
+
+### Azure database for MariaDB
+
+- Fully managed and controlled by AZure
+- High Availabilty
+- Scaling as needed
+- Predictable Performance 
+- Secure protection of sensitive data at rest and in-motion
+- Automatic backups and point-in-time restore up to 35 days
+- Enterprise-grade security and compliance
+
+## PostgreSQL
+
+- Hybrid relational-object database
+    - Store Custom Data Type
+- You can add code modules, which can be run by queries
+- Ability to store and manipulate geometric data (lines, circles and polygons)
+- own query language PGSQL
+
+### Azure database for PostgreSQL
+
+- high availability - built-in failure detection and failover mechanisms
+- pgAdmin tool - 
+- Azure PostgreSQL records information about queries and saves them in Azure_sys. You can query this if need fine-tune 

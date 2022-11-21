@@ -1,6 +1,5 @@
 # Relational Data Concepts
 
-
 # Normalization
 - Schema design process that minimizes data duplication and enforces data integrity
     - Separate  each entity into its own table
